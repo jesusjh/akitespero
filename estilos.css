@@ -1,0 +1,14 @@
+body{background:#ccc;font-size:14px;margin:0;text-align:center}
+header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
+header #logo{display:inline-block;float:left;padding-left:.2em;position:relative;width:85%}
+header #logo img{display:inline-block;float:left;margin:.3em 0;width:45%}
+header #avatar{float:right;margin-top:-2.4em;position:relative;text-align:left;width:60%}
+header #avatar #titulo{font-family:Arial;font-size:1.7em;float:right;margin:.2em;margin-top:.1em;position:relative;text-align:center;width:100%}
+nav{background:#000;border-bottom:4px solid transparent;border-left:10px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:left;vertical-align:top;width:97%}
+nav ul{list-style:none;margin:0;padding:0 .8em}
+nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
+nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
+#contenedor{background:#fff;display:inline-block;width:99%}
+#contenedor #imagen{box-shadow:0 9px 10px #000;display:inline-block;vertical-align:top;width:100%}
+#contenedor #imagen .image{margin:-.2em;padding:0;vertical-align:top;width:32%}
