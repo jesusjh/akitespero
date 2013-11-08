@@ -1,8 +1,10 @@
 body{background:#ccc;font-size:14px;margin:0;text-align:center}
 header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
 header #logo{display:inline-block;float:left;padding-left:.2em;position:relative;width:85%}
-header #logo img{display:inline-block;float:left;margin:.3em 0;width:45%}
-header #avatar{float:right;margin-top:-2.4em;position:relative;text-align:left;width:60%}
+header #logo img{border-top-right-radius:10px;border-top-left-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;display:inline-block;float:left;margin:.3em 0;width:75%}
+header #logo #titulo-item{display:block;margin:.4em;padding:.1em;text-align:left;vertical-align:top;width:20%}
+header #logo #titulo-item h3{margin:1em;text-align:center;width:96%}
+header #avatar{display:inline-block;float:right;margin-top:-17em;position:relative;text-align:left;width:30%}
 header #avatar #titulo{font-family:Arial;font-size:1.7em;float:right;margin:.2em;margin-top:.1em;position:relative;text-align:center;width:100%}
 nav{background:#684124;border-bottom:4px solid transparent;border-left:10px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:left;vertical-align:top;width:97%}
 nav ul{list-style:none;margin:0;padding:0 .8em}
@@ -27,3 +29,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor aside{display:block;float:right;margin:2em;position:relative;width:30%}
 #contenedor aside h3{background:#272727;color:#fff;font-size:1.5em;font-weight:normal;float:right;margin:.2em;padding:.1em;text-align:left;width:95%}
 #contenedor aside a{color:#000;font-size:1em;font-weight:normal;float:right;width:100%}
+@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
+#contenedor{border:2px solid #000;}
+#contenedor #mapa .mapa{border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;box-shadow:2px 5px 10px #a7a793}
+}

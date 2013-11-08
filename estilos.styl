@@ -21,17 +21,35 @@ header #logo
 
 
 header #logo img
+	border-top-right-radius 10px
+	border-top-left-radius 10px
+	border-bottom-right-radius 10px
+	border-bottom-left-radius 10px
 	display inline-block
 	float left
 	margin 0.3em 0px
-	width 45%
+	width 75%
+
+header #logo #titulo-item
+	display block
+	margin 0.4em 
+	padding 0.1em 
+	text-align left
+	vertical-align top
+	width 20%
+
+header #logo #titulo-item h3
+	margin 1em
+	text-align center
+	width 96%
 
 header #avatar
+	display inline-block
 	float right
-	margin-top -2.4em
+	margin-top -17em
 	position relative
 	text-align left
-	width 60%
+	width 30%
 
 header #avatar #titulo
 	font-family Arial
@@ -213,3 +231,5 @@ nav ul li a:hover
 	font-weight normal
 	float right
 	width 100%
+
+@import "responsive.styl"
