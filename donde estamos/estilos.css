@@ -11,6 +11,10 @@ nav ul{list-style:none;margin:0;padding:0 .8em}
 nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
-#contenedor{background:#fff;display:inline-block;padding:relative;top:0;width:99%}
-#contenedor #imagen{box-shadow:0 9px 10px #000;display:inline-block;padding:.2em 0 .4em;vertical-align:top;width:100%}
-#contenedor #imagen .image{border-top-right-radius:15px;border-top-left-radius:15px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;margin:-.2em;padding:.5em;vertical-align:top;width:25%}
+#contenedor{background:#fff;display:inline-block;top:0;width:99%}
+#contenedor #imagen{box-shadow:0 9px 10px #000;display:inline-block;height:auto;margin:0;top:0;vertical-align:top;width:100%}
+#contenedor #imagen .image{border-radius:40%;display:inline-block;height:150px;margin:0;position:relative;top:0;vertical-align:top;width:99%}
+#contenedor #mapa{display:inline-block;float:left;margin:.7em .4em;position:relative;width:90%}
+#contenedor #mapa  .mapa{display:inline-block;float:left;width:70%}
+#contenedor #mapa  #texto{font-size:1em;font-weight:normal;float:left;text-align:left;width:60%}
+#contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
