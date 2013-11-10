@@ -12,8 +12,8 @@ nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor{background:#fff;display:inline-block;width:99%}
-#contenedor #imagen{box-shadow:0 9px 10px #000;display:inline-block;vertical-align:top;width:100%}
-#contenedor #imagen .image{margin:-.2em;padding:0;vertical-align:top;width:25%}
+#contenedor #imagen{box-shadow:0 9px 10px #000;display:inline-block;padding:.2em 0 .4em;vertical-align:top;width:100%}
+#contenedor #imagen .image{border-top-right-radius:15px;border-top-left-radius:15px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;margin:-.2em;padding:.5em;vertical-align:top;width:25%}
 #contenedor #nota{display:inline-block;font-family:"Libre Baskerville",Arial;font-size:1em;font-weight:normal;float:left;margin:1em .2em;padding:.3em .4em;text-align:left;width:50%}
 #contenedor #nota h2{font-family:"Sancreek",Arial;font-size:1.3em;font-weight:normal;text-align:center;width:80%}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
