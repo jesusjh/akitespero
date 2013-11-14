@@ -17,4 +17,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #mapa{display:inline-block;float:left;margin:.7em .4em;position:relative;width:50%}
 #contenedor #mapa  .mapa{display:inline-block;width:90%}
 #contenedor #mapa  #texto{font-size:1em;font-weight:normal;margin:.3em;text-align:left;width:60%}
+#contenedor #informacion{background:#f00;float:right;margin:1em 1em;width:40%}
+#contenedor #informacion .logo{display:inline-block;float:right;margin:.4em .4em;width:10%}
+#contenedor #informacion .wasp{display:inline-block;padding:-2em;position:relative;width:5%}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
