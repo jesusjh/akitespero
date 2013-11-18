@@ -1,5 +1,5 @@
 body{background:#ccc;font-size:14px;margin:0;text-align:center}
-header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:100%}
+header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
 header #logo{display:inline-block;float:left;padding-left:.2em;position:relative;width:85%}
 header #logo img{border-top-right-radius:10px;border-top-left-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;display:inline-block;float:left;margin:.3em 0;width:75%}
 header #logo #titulo-item{display:block;margin:.4em;padding:.1em;text-align:left;vertical-align:top;width:20%}
@@ -11,10 +11,9 @@ nav ul{list-style:none;margin:0;padding:0 .8em}
 nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
-#contenedor{background:#fff;display:inline-block;width:100%}
-#contenedor #imagen .image{display:none}
-#contenedor #promocion{color:#fff;font-family:"Sancreek",Arial;font-size:1.7em;font-weight:normal;float:left;margin:.3em;width:55%}
-#contenedor #oferta{display:inline-block;float:left;margin:0 1.5em;margin-top:0;position:relative;width:48%}
+#contenedor{background:#fff;display:inline-block;width:99%}
+#contenedor #imagen{display:none}
+#contenedor h2{font-family:"Sancreek",Arial;font-size:1.4em;padding:0 .8em;text-align:left;width:60%}
 #contenedor #lateral{float:right;margin:.4em;position:relative;width:30%}
 #contenedor #lateral #item{display:inline-block;vertical-align:top;width:100%}
 #contenedor #lateral #item a{color:#000;font-size:1.3em;font-weight:normal;padding:.5em}
@@ -27,8 +26,3 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #lateral #video a{font-size:1.3em;font-weight:normal;color:#000}
 #contenedor #lateral #video a:hover{color:#318c9f;font-size:1.5em}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
-@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
-#contenedor{box-shadow:9px 8px 10px #827e6f}
-#contenedor #imagen{box-shadow:0 9px 10px #000;border-radius:10px;display:inline-block;height:auto;margin:0;top:0;vertical-align:top;width:100%}
-#contenedor #imagen .image{border-radius:40%;display:inline-block;height:150px;margin:0;position:relative;top:0;vertical-align:top;width:99%}
-}
