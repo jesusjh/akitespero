@@ -107,6 +107,33 @@ nav ul li a:hover
 #contenedor #imagen
 	display none
 
+#contenedor #nota
+	display inline-block
+	font-size 1.3em
+	font-weight normal
+	text-align left
+	width 60%
+
+#contenedor #nota #imagenes
+	width 100%
+
+#contenedor #nota #imagenes .fotos
+	display inline-block
+	padding 0 0.4em
+	vertical-align top	
+	width 30%
+
+#contenedor #nota #imagenes .fotos
+	-webkit-transition all 1s ease 1s
+	-moz-transition all 1s ease 1s
+	-o-transition all 1s ease 1s
+	transition all 1s ease 1s
+
+#contenedor #nota #imagenes .fotos:hover
+	display inline-block
+	margin-left 1.3em
+	width 50%
+
 #contenedor h2
 	font-family "Sancreek", Arial
 	font-size 1.4em
@@ -185,3 +212,5 @@ nav ul li a:hover
 	color white
 	display inline-block
 	width 90%
+
+@import "responsive.styl"
