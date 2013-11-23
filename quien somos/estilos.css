@@ -32,4 +32,6 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #lateral #video a:hover{color:#318c9f;font-size:1.5em}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
+#contenedor{box-shadow:10px 9px 14px #abaa96}
+#contenedor #imagenes .fotos{border-top-left-radius:14px;border-top-right-radius:14px;border-bottom-left-radius:14px;border-bottom-right-radius:14px}
 }
