@@ -1,0 +1,41 @@
+body{background:#ccc;font-size:14px;margin:0;text-align:center}
+header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
+header #logo{display:inline-block;float:left;padding-left:.2em;position:relative;width:85%}
+header #logo img{border-top-right-radius:10px;border-top-left-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;display:inline-block;float:left;margin:.3em 0;width:75%}
+header #logo #titulo-item{display:block;margin:.4em;padding:.1em;text-align:left;vertical-align:top;width:20%}
+header #logo #titulo-item h3{margin:1em;font-family:"Sancreek",Arial;text-align:center;width:96%}
+header #avatar{display:inline-block;float:right;margin-top:-17em;position:relative;text-align:left;width:30%}
+header #avatar #titulo{font-family:"Sancreek",Arial;font-size:1.7em;float:right;margin:.2em;margin-top:.1em;position:relative;text-align:center;width:100%}
+nav{background:#684124;border-bottom:4px solid transparent;border-left:10px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:left;vertical-align:top;width:97%}
+nav ul{list-style:none;margin:0;padding:0 .8em}
+nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
+nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
+#contenedor{background:#fff;display:inline-block;width:99%}
+#contenedor #imagen{display:none}
+#contenedor h3{font-size:1.6em;font-family:"Sancreek",Arial;font-weight:normal;margin:.4em;padding:0 .8em;text-align:left;width:50%}
+#contenedor #pdf{font-size:1.4em;font-weight:normal;margin:.5em 2.3em;width:50%}
+#contenedor #pdf .archivos{vertical-align:top;width:23%}
+#contenedor #pdf .archivos{-webkit-transition:all 1s ease 1s;-moz-transition:all 1s ease 1s;-o-transition:all 1s ease 1s;transition:all 1s ease 1s}
+#contenedor #pdf .archivos:hover{border-radius:20px;display:inline-block;margin:.5em .4;opacity:1em;width:40%}
+#contenedor #pdf #ruta{margin:.5em;width:60%}
+#contenedor #pdf #ruta .ruta{color:#000;font-size:1em;font-weight:normal}
+#contenedor #pdf #ruta p{text-align:left;font-size:.6em;font-weight:normal}
+#contenedor #pdf #ruta .ruta:hover{font-size:1.2em}
+#contenedor #lateral{float:right;margin:.4em;position:relative;width:30%}
+#contenedor #lateral #item{display:inline-block;vertical-align:top;width:100%}
+#contenedor #lateral #item a{color:#000;font-size:1.3em;font-weight:normal;padding:.5em}
+#contenedor #lateral #item a:hover{color:#318c9f;font-size:1.6em}
+#contenedor #lateral #item .logo{float:right;margin:.3em .4em;width:30%}
+#contenedor #lateral #item .wasp{margin:.2em;width:8%}
+#contenedor #lateral h3{background:#000;color:#fff;font-family:"Sancreek",Arial;font-size:1.4em;font-weight:normal;margin:.2em .4em;padding:0 .4em;text-align:left;width:80%}
+#contenedor #lateral #video{display:inline-block;margin:.5em;width:90%}
+#contenedor #lateral #video video{padding:.3em;width:99%}
+#contenedor #lateral #video a{font-size:1.3em;font-weight:normal;color:#000}
+#contenedor #lateral #video a:hover{color:#318c9f;font-size:1.5em}
+#contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
+@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
+#contenedor{box-shadow:7px 3px 14px #283c48}
+#contenedor #imagen{box-shadow:0 9px 10px #000;border-radius:10px;display:inline-block;height:auto;margin:0;top:0;vertical-align:top;width:100%}
+#contenedor #imagen .image{border-radius:40%;display:inline-block;height:150px;margin:0;position:relative;top:0;vertical-align:top;width:99%}
+}
