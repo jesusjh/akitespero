@@ -14,6 +14,17 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor{background:#fff;display:inline-block;width:99%}
 #contenedor #imagen{display:none}
 #contenedor h3{font-family:"Sancreek",Arial;font-size:1.3em;font-weight:normal;margin:.3em .5em;padding:.3em .6em;text-align:left;width:50%}
+#contenedor #imagenes{display:inline-block;width:60%}
+#contenedor #imagenes #izquierda{display:inline-block;float:left;margin:.4em;vertical-align:top;width:45%}
+#contenedor #imagenes #izquierda p{font-weight:normal;padding:.4em;text-align:left;width:100%}
+#contenedor #imagenes #izquierda .izquierda-item{padding:.3em;width:30%}
+#contenedor #imagenes #izquierda .izquierda-item{-webkit-transition:all 1s ease 1s;-moz-transition:all 1s ease 1s;-o-transition:all 1s ease 1s;transition:all 1s ease 1s}
+#contenedor #imagenes #izquierda .izquierda-item:hover{display:inline-block;border-radius:15px;margin-left:1.3em;width:50%}
+#contenedor #imagenes #derecha{float:right;margin:.4em;width:45%}
+#contenedor #imagenes #derecha p{float:right;text-align:left;width:80%}
+#contenedor #imagenes #derecha .derecha-item{padding:.3em;width:30%}
+#contenedor #imagenes #derecha .derecha-item{-webkit-transition:all 1s ease 1s;-moz-transition:all 1s ease 1s;-o-transition:all 1s ease 1s;transition:all 1s ease 1s}
+#contenedor #imagenes #derecha .derecha-item:hover{border-radius:15px;display:inline-block;margin-left:1.3em;width:50%}
 #contenedor #lateral{float:right;margin:.4em;position:relative;width:30%}
 #contenedor #lateral #item{display:inline-block;vertical-align:top;width:100%}
 #contenedor #lateral #item a{color:#000;font-size:1.3em;font-weight:normal;padding:.5em}
@@ -26,3 +37,10 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #lateral #video a{font-size:1.3em;font-weight:normal;color:#000}
 #contenedor #lateral #video a:hover{color:#318c9f;font-size:1.5em}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
+@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
+#contenedor{box-shadow:9px 8px 10px #827e6f}
+#contenedor #imagen{box-shadow:0 9px 10px #000;border-radius:10px;display:inline-block;height:auto;margin:0;top:0;vertical-align:top;width:100%}
+#contenedor #imagen .image{border-radius:40%;display:inline-block;height:150px;margin:0;position:relative;top:0;vertical-align:top;width:99%}
+#contenedor #imagenes #izquierda .izquierda-item:hover{box-shadow:3px 5px 10px #3f4a55;width:85%}
+#contenedor #imagenes #derecha .derecha-item:hover{box-shadow:3px 5px 10px #3f4a55;width:85%}
+}
