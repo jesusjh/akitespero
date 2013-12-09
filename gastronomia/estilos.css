@@ -23,6 +23,8 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #pdf #ruta p{text-align:left;font-size:.6em;font-weight:normal}
 #contenedor #pdf #ruta .ruta:hover{font-size:1.2em}
 #contenedor #lateral{float:right;margin:.4em;position:relative;width:30%}
+#contenedor #lateral #mapa{display:inline-block;float:right;width:90%}
+#contenedor #lateral #mapa .mapa{width:90%}
 #contenedor #lateral #item{display:inline-block;vertical-align:top;width:100%}
 #contenedor #lateral #item a{color:#000;font-size:1.3em;font-weight:normal;padding:.5em}
 #contenedor #lateral #item a:hover{color:#318c9f;font-size:1.6em}
@@ -34,8 +36,15 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #lateral #video a{font-size:1.3em;font-weight:normal;color:#000}
 #contenedor #lateral #video a:hover{color:#318c9f;font-size:1.5em}
 #contenedor #pie{background:#321600;border-bottom:4px solid transparent;border-left:15px solid transparent;border-top:4px solid #fff;border-bottom:4px solid #fff;border-right:15px solid transparent;border-top:4px solid #fff;color:#fff;display:inline-block;width:90%}
+#contenedor #lateral #enlaces{display:inline-block;width:90%}
+#contenedor #lateral #enlaces h3{font-size:.9em;font-weight:normal;text-align:left}
+#contenedor #lateral #enlaces .imagenes{display:inline-block;vertical-align:top;width:13%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
 #contenedor{box-shadow:7px 3px 14px #283c48}
 #contenedor #imagen{box-shadow:0 9px 10px #000;border-radius:10px;display:inline-block;height:auto;margin:0;top:0;vertical-align:top;width:100%}
 #contenedor #imagen .image{border-radius:40%;display:inline-block;height:150px;margin:0;position:relative;top:0;vertical-align:top;width:99%}
+#contenedor #lateral #mapa .mapa{border-radius:12px}
+#contenedor #lateral #enlaces .imagenes{border-radius:25px}
+#contenedor #lateral #enlaces .imagenes{-webkit-transition:all 1s ease 1s;-moz-transition:all 1s ease 1s;-o-transition:all 1s ease 1s;transition:all 1s ease 1s}
+#contenedor #lateral #enlaces .imagenes:hover{display:inline-block;border-radius:15px;margin-left:1.3em;width:50%}
 }
