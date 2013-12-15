@@ -2,7 +2,7 @@ body{background:#ccc;font-size:13px;margin:0;text-align:center;z-index:0}
 header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
 header #logo{display:inline-block;float:left;margin:.3em;width:50%}
 header #logo #logo-item{display:inline-block;border-radius:20px;padding:.3em .4em;width:94%}
-nav{background:#d8d8d8;border-bottom:4px solid transparent;border-left:20px solid #fff;border-top:4px solid transparent;border-bottom:20px solid #fff;border-right:20px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.7em;text-align:left;vertical-align:top;width:97%}
+nav{background:#d8d8d8;border-bottom:4px solid transparent;border-left:20px solid #fff;border-top:8px solid transparent;border-bottom:20px solid #fff;border-right:10px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.7em;text-align:left;vertical-align:top;width:97%}
 nav ul{list-style:none;margin:0;padding:0 .8em}
 nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
@@ -14,21 +14,8 @@ header #nota #avatar{display:inline-block;float:left;width:50%}
 header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight:normal;text-align:left;width:100%}
 header #nota #avatar a{color:#000;font-size:1em}
 header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
-#contenedor{background:#fff;display:inline-block;width:95%}
-#contenedor #texto-item{float:right;margin:.5em;margin-top:5em;position:relative;width:40%}
-#contenedor #texto-item h4{font-family:"Sancreek",Arial;font-size:1.1em;font-weight:bold}
-#contenedor #texto-item small{font-size:1.3em;font-weight:bold}
-#contenedor #texto-item a{color:#7db1b7;font-size:1em}
-#contenedor #texto-item a:hover{font-size:1.3em}
-#contenedor #texto-item .logo{margin:.5em;width:20px}
-#contenedor #texto-item #item{display:inline-block;float:left;margin:2em 4em;position:relative;text-align:left;width:80%}
-#contenedor #texto-item #item h4{font-family:"Sancreek",Arial;font-size:1.2em;font-weight:bold;text-align:center;width:100%}
-#contenedor #texto-item #item small{color:#008fd5}
-#contenedor #mapa{display:inline-block;position:relative;text-align:left;width:50%}
-#contenedor #mapa #texto{margin:.3em;width:70%}
-#contenedor #mapa #texto h3{font-family:"Sancreek",Arial;font-size:1.3em;padding:.4em;width:80%}
-#contenedor #mapa .mapa{float:left;padding:2em;width:70%}
-#contenedor #opinion{display:inline-block;margin:.4em;width:90%}
+#contenedor{background:#fff;display:inline-block;width:99%}
+#contenedor #formulario{background:#f00;display:inline-block;float:left;margin:.4em;width:70%}
 #contenedor #pie{background:#000;display:inline-block;width:100%}
 #contenedor #pie #presentacion{background:#000;color:#fff;display:inline-block;font-size:1.2em;margin:.8em;width:80%}
 #contenedor #pie  #enlaces{float:left;width:30%}
@@ -37,10 +24,3 @@ header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial
 #pie #enlace .red{float:left;padding:.3em;width:50%}
 #contenedor #pie #donde{background:#f00;display:inline-block;float:right;margin:.3em;position:relative;width:30%}
 #contenedor #pie #donde .vamos{width:40%}
-@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
-#contenedor{box-shadow:2px 9px 15px #283c48}
-#contenedor #texto-item  #texto-iten #foto{border-radius:100px}
-#contenedor #pie #enlace .red{border-radius:8px}
-#contenedor #pie #donde .vamos{border-radius:8px}
-#contenedor #mapa .mapa{border-radius:15px;display:inline-block}
-}
