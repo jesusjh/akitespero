@@ -54,5 +54,5 @@ header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial
 #contenedor{box-shadow:2px 9px 15px #283c48}
 #contenedor #texto-item  #texto-iten #foto{border-radius:100px}
 #contenedor #pie #enlace .red{border-radius:8px}
-#contenedor #pie #donde .vamos{border-radius:8px}
+#contenedor #pie  #donde .vamos{border-radius:8px}
 }

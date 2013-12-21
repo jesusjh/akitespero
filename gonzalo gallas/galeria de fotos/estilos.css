@@ -1,0 +1,17 @@
+body{background:#ccc;font-size:13px;margin:0;text-align:center;z-index:0}
+header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
+header #logo{display:inline-block;float:left;margin:.3em;width:50%}
+header #logo #logo-item{display:inline-block;border-radius:20px;padding:.3em .4em;width:94%}
+nav{background:#d8d8d8;border-bottom:4px solid transparent;border-left:20px solid #fff;border-top:4px solid transparent;border-bottom:20px solid #fff;border-right:20px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.7em;text-align:left;vertical-align:top;width:97%}
+nav ul{list-style:none;margin:0;padding:0 .8em}
+nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
+nav ul li a:hover{border-bottom:6px solid #414141;margin:0;padding:0}
+header #nota{display:inline-block;float:right;margin:.3em;padding:.4em 2em;top:0;vertical-align:top;width:30%}
+header #nota #nota-item{display:inline-block;float:right;width:50%}
+header #nota #nota-item h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight:normal;text-align:left;width:100%}
+header #nota #avatar{display:inline-block;float:left;width:50%}
+header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight:normal;text-align:left;width:100%}
+header #nota #avatar a{color:#000;font-size:1em}
+header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
+#contenedor{background:#fff;display:inline-block;width:95%}

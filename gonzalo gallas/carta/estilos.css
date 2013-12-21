@@ -24,10 +24,11 @@ header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial
 #contenedor #texto-item #item{display:inline-block;float:left;margin:2em 4em;position:relative;text-align:left;width:80%}
 #contenedor #texto-item #item h4{font-family:"Sancreek",Arial;font-size:1.2em;font-weight:bold;text-align:center;width:100%}
 #contenedor #texto-item #item small{color:#008fd5}
-#contenedor #nota{font-size:1em;font-weight:normal;float:left;margin:.5em;text-align:left;width:40%}
-#contenedor #formulario{display:inline-block;float:left;margin:.4em;width:50%}
-#contenedor #formulario .formulario{display:inline-block;width:60%}
-#contenedor #opinion{display:inline-block;margin:.4em;width:90%}
+#contenedor #carta{display:inline-block;float:left;margin:.4em;position:relative;width:50%}
+#contenedor #nota{display:none}
+#contenedor #carta .archivos{padding:.4em;vertical-align:top;width:35%}
+#contenedor #carta #ruta a{color:#000;font-family:"Libre Baskerville",Arial;font-size:1.1em;font-weight:bold}
+#contenedor #carta #ruta a:hover{font-size:1.5em}
 #contenedor #pie{background:#000;display:inline-block;width:100%}
 #contenedor #pie #presentacion{background:#000;color:#fff;display:inline-block;font-size:1.2em;margin:.8em;width:80%}
 #contenedor #pie  #enlaces{float:left;width:30%}
@@ -38,6 +39,9 @@ header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial
 #contenedor #pie #donde .vamos{width:40%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
 #contenedor{box-shadow:2px 9px 15px #283c48}
-#contenedor #pie #enlace .red{border-radius:15px}
-#contenedor #pie #donde .vamos{border-radius:15px}
+#contenedor #nota{display:inline-block;font-size:1.3em;font-weight:normal;float:left;margin:.3em;padding:.4em;text-align:left;width:40%}
+#contenedor #carta .archivos{border-radius:15px}
+#contenedor #texto-item  #texto-iten #foto{border-radius:100px}
+#contenedor #pie #enlace .red{border-radius:8px}
+#contenedor #pie  #donde .vamos{border-radius:8px}
 }
