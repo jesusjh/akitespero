@@ -15,3 +15,7 @@ header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight
 header #nota #avatar a{color:#000;font-size:1em}
 header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
 #contenedor{background:#fff;display:inline-block;width:95%}
+#contenedor #item{background:#fff;text-align:center;width:40%}
+#contenedor #item ul{font-size:.6em}
+#contenedor #item ul li a{color:#000}
+#contenedor #item ul li a:hover{background:#559c00;border-bottom:3px solid #f00;color:#fff;font-size:1.2em;font-family:"Libre Baskerville",Arial}
