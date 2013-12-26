@@ -15,7 +15,21 @@ header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight
 header #nota #avatar a{color:#000;font-size:1em}
 header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
 #contenedor{background:#fff;display:inline-block;width:95%}
-#contenedor #item{background:#fff;text-align:center;width:40%}
-#contenedor #item ul{font-size:.6em}
-#contenedor #item ul li a{color:#000}
+#contenedor #item{background:#000;display:inline-block;float:left;margin:.3em;text-align:center;width:50%}
+#contenedor #item ul{font-size:.8em;padding:.4em}
+#contenedor #item ul li a{color:#fff}
 #contenedor #item ul li a:hover{background:#559c00;border-bottom:3px solid #f00;color:#fff;font-size:1.2em;font-family:"Libre Baskerville",Arial}
+#contenedor #imagenes{margin:4em .3em;width:60%}
+#contenedor #imagenes #exterior{border:5px solid #808080;float:left;padding:.3em;width:30%}
+#contenedor #imagenes #gastronomia{border:5px solid #808080;display:inline-block;padding:.3em;width:30%}
+#contenedor #imagenes #eventos{border:5px solid #808080;float:right;padding:.3em;width:30%}
+#contenedor #imagenes #exterior,#gastronomia,#eventos p{font-family:"Libre Baskerville",Arial;font-size:1.3em;font-weight:bold}
+#contenedor #imagenes .avatar{border-radius:15px;width:100%}
+#contenedor #pie{background:#000;display:inline-block;width:100%}
+#contenedor #pie #presentacion{background:#000;color:#fff;display:inline-block;font-size:1.2em;margin:.8em;width:80%}
+#contenedor #pie  #enlaces{float:left;width:30%}
+#contenedor #pie  #enlaces .redes{border-radius:30px;float:left;margin:0 .4em;padding:.4em;position:relative;width:10%}
+#pie #enlace{display:inline-block;float:left;width:30%}
+#pie #enlace .red{float:left;padding:.3em;width:50%}
+#contenedor #pie #donde{background:#f00;display:inline-block;float:right;margin:.3em;position:relative;width:30%}
+#contenedor #pie #donde .vamos{width:40%}
