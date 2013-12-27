@@ -15,6 +15,10 @@ header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight
 header #nota #avatar a{color:#000;font-size:1em}
 header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
 #contenedor{background:#fff;display:inline-block;width:95%}
+#contenedor #texto-iten{display:inline-block;font-size:1.1em;float:right;margin:.3em;text-align:left;width:30%}
+#contenedor #texto-iten a{color:#808080;font-size:1.3em;font-weight:normal}
+#contenedor #texto-iten a:hover{font-size:1.5em;font-weight:bold;font-family:"Libre Baskerville",Arial}
+#contenedor #texto-iten .logo{width:10%}
 #contenedor #item{background:#000;display:inline-block;float:left;margin:.3em;text-align:center;width:50%}
 #contenedor #item ul{font-size:.8em;padding:.4em}
 #contenedor #item ul li a{color:#fff}
