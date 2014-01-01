@@ -1,5 +1,5 @@
 body{background:#ccc;font-size:13px;margin:0;text-align:center;z-index:0}
-header{background:#fff;display:inline-block;margin:.1em;top:0;vertical-align:top;width:99%}
+header{background:#fff;display:inline-block;margin:.1em;vertical-align:top;width:99%}
 header #logo{display:inline-block;float:left;margin:.3em;width:50%}
 header #logo #logo-item{display:inline-block;border-radius:20px;padding:.3em .4em;width:94%}
 nav{background:#d8d8d8;border-bottom:4px solid transparent;border-left:20px solid #fff;border-top:8px solid transparent;border-bottom:20px solid #fff;border-right:10px solid #fff;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.7em;text-align:left;vertical-align:top;width:97%}
@@ -15,14 +15,14 @@ header #nota #nota-item h3{font-family:"Sancreek",Arial;font-size:1.1em;font-wei
 header #nota #avatar{display:inline-block;float:left;width:50%}
 header #nota #avatar h3{font-family:"Sancreek",Arial;font-size:1.1em;font-weight:normal;text-align:left;width:100%}
 header #nota #avatar a{color:#000;font-size:1em}
-header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em}
+header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial;font-size:1.2em gallas}
 #contenedor{background:#fff;display:inline-block;width:99%}
-#contenedor #texto{float:right;font-size:1.1em;margin:1em;text-align:left;width:30%}
+#contenedor #imagenes{display:inline-block;margin:.4em;width:52%}
+#contenedor #texto{float:right;font-size:1.1em;margin:.4em;text-align:left;width:35%}
 #contenedor #texto h4{display:inline-block;font-family:"Sancreek",Arial;font-size:1.2em;font-weight:normal;text-align:center;margin:.3em .4em;width:70%}
 #contenedor #texto .logo{width:10%}
 #contenedor #texto a{color:#000;font-size:1.1em}
 #contenedor #texto a:hover{font-family:"Libre Baskerville",Arial;font-size:1.3em;font-weight:bold}
-#contenedor #imagenes{display:inline-block;float:left;margin:.3em;padding:.4em;width:55%}
 #contenedor #pie{background:#000;display:inline-block;width:100%}
 #contenedor #pie #presentacion{background:#000;color:#fff;display:inline-block;font-size:1.2em;margin:.8em;width:80%}
 #contenedor #pie  #enlaces{float:left;width:30%}
@@ -33,7 +33,6 @@ header #nota #avatar a:hover{color:#008fd5;font-family:"Libre Baskerville",Arial
 #contenedor #pie #donde .vamos{width:40%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
 #contenedor{box-shadow:2px 9px 15px #283c48}
-#contenedor #texto{font-size:1em}
 #contenedor #texto-item  #texto-iten #foto{border-radius:100px}
 #contenedor #pie #enlace .red{border-radius:8px}
 #contenedor #pie  #donde .vamos{border-radius:8px}
