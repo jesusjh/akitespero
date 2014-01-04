@@ -23,11 +23,9 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #texto-item a{color:#b20057;font-size:1.1em}
 #contenedor #texto-item a:hover{font-family:"Fascinate Inline",Arial;font-size:1.5em}
 #contenedor #texto-item .logo{border-radius:13px;margin:.3em;width:5%}
-#contenedor #imagenes{display:inline-block;float:left;margin:.4em 2em;width:50%}
-#contenedor #imagenes .img{padding:.3em;vertical-align:top;width:100%}
-#contenedor #texto{display:inline-block;float:left;font-weight:normal;margin:0 2em;width:50%}
-#contenedor #texto h2{color:#b20057;font-family:"Allan",Arial;font-size:1.6em;font-weight:normal;text-align:left;width:50%}
-#contenedor #texto .estilo{color:#b20057;font-family:"Fascinate Inline",Arial;font-size:1.3em}
+#contenedor #item-mapa{margin:.7em}
+#contenedor #item-mapa .map{border-top-right-radius:9px;border-bottom-left-radius:9px}
+#contenedor #item-mapa #item-texto{display:inline-block;font-size:1.2em;font-weight:normal;text-align:left;width:50%}
 #contenedor #pie{background:#b03537;color:#fff;display:inline-block;width:100%}
 #contenedor #pie #presentacion{display:inline-block;text-align:left;vertical-align:top;width:80%}
 #contenedor #pie #enlace{display:inline-block;width:40%}
@@ -39,4 +37,5 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
 #contenedor{box-shadow:2px 9px 15px #283c48}
 #contenedor #datos #mapa .mapa{border-radius:20px;box-shadow:3px 5px 15px #283c48}
+#contenedor #item-mapa .map{border-radius:20px}
 }
